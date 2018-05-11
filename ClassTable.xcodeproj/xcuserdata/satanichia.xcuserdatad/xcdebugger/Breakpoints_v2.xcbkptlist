@@ -17,6 +17,68 @@
             endingLineNumber = "4"
             landmarkName = "unknown"
             landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClassTable.AppDelegate.__deallocating_deinit"
+                  moduleName = "ClassTable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satanichia/Desktop/JXAUClassTable/ClassTable/AppDelegate.swift"
+                  timestampString = "547694640.734315"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClassTable.AppDelegate.__allocating_init() -&gt; ClassTable.AppDelegate"
+                  moduleName = "ClassTable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satanichia/Desktop/JXAUClassTable/ClassTable/AppDelegate.swift"
+                  timestampString = "547694640.739931"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClassTable.AppDelegate.init() -&gt; ClassTable.AppDelegate"
+                  moduleName = "ClassTable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satanichia/Desktop/JXAUClassTable/ClassTable/AppDelegate.swift"
+                  timestampString = "547694640.743385"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "ClassTable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/satanichia/Desktop/JXAUClassTable/ClassTable/AppDelegate.swift"
+                  timestampString = "547694640.746164"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
