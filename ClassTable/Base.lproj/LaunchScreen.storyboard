@@ -13,7 +13,7 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage.jpg" id="hnn-r0-iW5">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" id="hnn-r0-iW5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -24,6 +24,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchImage.jpg" width="375" height="667"/>
+        <image name="LaunchImage" width="16" height="16"/>
     </resources>
 </document>
