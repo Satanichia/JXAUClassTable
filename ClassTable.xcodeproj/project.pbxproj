@@ -21,6 +21,7 @@
 		2EEAA72620BEC1440052471B /* FrontPageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EEAA72520BEC1440052471B /* FrontPageView.storyboard */; };
 		2EEAA72820BEC15D0052471B /* FrontPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEAA72720BEC15D0052471B /* FrontPageView.swift */; };
 		2EEAA72A20BEC1AF0052471B /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEAA72920BEC1AF0052471B /* LaunchViewController.swift */; };
+		2EEAA72E20BECB060052471B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EEAA72D20BECB060052471B /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		2EEAA72520BEC1440052471B /* FrontPageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FrontPageView.storyboard; sourceTree = "<group>"; };
 		2EEAA72720BEC15D0052471B /* FrontPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageView.swift; sourceTree = "<group>"; };
 		2EEAA72920BEC1AF0052471B /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		2EEAA72D20BECB060052471B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		2E92AA1420A5278A003277ED /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2EEAA72D20BECB060052471B /* icon.png */,
 				2E9D6F5020BC21F000F6C5B3 /* LaunchImage.jpg */,
 			);
 			path = Resources;
@@ -306,6 +309,7 @@
 				2EEAA72620BEC1440052471B /* FrontPageView.storyboard in Resources */,
 				2E627C0320A20BEE0049DA0C /* Assets.xcassets in Resources */,
 				2EEAA71D20BE819A0052471B /* LoginView.storyboard in Resources */,
+				2EEAA72E20BECB060052471B /* icon.png in Resources */,
 				2E627C0120A20BEE0049DA0C /* BaseView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

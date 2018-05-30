@@ -8,26 +8,20 @@
 
 import UIKit
 
-class FrontPageViewCotroller : UIViewController {
-    
-    private var time:TimeInterval = 1.0
-    private var timer:Timer?
+class FrontPageViewCotroller : UIViewController , UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        DispatchQueue.main.asyncAfter(deadline:DispatchTime.now() + time){
-            let sb = UIStoryboard(name:"LoginView",bundle:nil)
-            let rootVC = sb.instantiateInitialViewController()
-            UIApplication.shared.keyWindow?.rootViewController = rootVC
-        }
-        
-        //倒计时
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
     }
     
-    @objc func updateTime(){
-        time -= 1
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return NEWS.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell=tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath)
+        cell.textLabel?.text = String("News \(NEWS[indexPath.row])")
+        return cell
     }
     
 }

@@ -8,10 +8,26 @@
 
 import UIKit
 
-class LaunchViewContorller : UIViewController {
+class LaunchViewController : UIViewController {
+    
+    private var time:TimeInterval = 1.0
+    private var timer:Timer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        DispatchQueue.main.asyncAfter(deadline:DispatchTime.now() + time){
+            let sb = UIStoryboard(name:"FrontPageView",bundle:nil)
+            let rootVC = sb.instantiateInitialViewController()
+            UIApplication.shared.keyWindow?.rootViewController = rootVC
+        }
+        
+        //倒计时
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
+    }
+    
+    @objc func updateTime(){
+        time -= 1
     }
     
 }
