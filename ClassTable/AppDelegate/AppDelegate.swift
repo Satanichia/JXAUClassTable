@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //改为从storyboard启动
+        //创建窗口
+        window = UIWindow(frame:UIScreen.main.bounds)
+        let launchVC = LaunchViewController()
+        window?.rootViewController = launchVC
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

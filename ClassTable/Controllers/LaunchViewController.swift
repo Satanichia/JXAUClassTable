@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  LaunchViewController.swift
 //  ClassTable
 //
 //  Created by Satanichia on 2018/5/30.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-class LoginViewCotroller : UIViewController {
+class LaunchViewContorller : UIViewController {
     
     override func viewDidLoad() {
-        super.viewDidLoad();
+        super.viewDidLoad()
     }
     
 }
