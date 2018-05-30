@@ -8,8 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BaseViewController: UIViewController {
+    
+    @IBAction func btnClick(_ sender: Any) {
+        print("Button clicked.")
+    }
 
+    @IBAction func switchChange(_ sender: Any) {
+        print("Switch changed.")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +27,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
 
